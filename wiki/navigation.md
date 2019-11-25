@@ -2,7 +2,7 @@
 
 [gimmick:theme](yeti)
 
-[Home](home.md)
+[Home](index.md)
 [Coding](coding.md)
 [Building](building.md)
 [Misc](misc.md)
