@@ -11,8 +11,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: .75rem;
-  color: #0099ff;
-  border: 1px solid #0099ff
+  color: #7a2fbb;
+  border: 1px solid #7a2fbb
 }
 
 #mainNav .navbar-toggler:focus {
@@ -80,7 +80,7 @@
   }
 
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #0099ff
+    color: #7a2fbb
   }
 
   #mainNav.navbar-shrink .nav-link:active {
@@ -88,9 +88,9 @@
   }
 
   #mainNav.navbar-shrink .nav-link.active {
-    color: #0099ff;
+    color: #7a2fbb;
     outline: 0;
-    border-bottom: .25rem solid #0099ff
+    border-bottom: .25rem solid #7a2fbb
   }
 }
 
@@ -158,20 +158,21 @@
 }
 
 .btn-primary {
-  background-color: #0099ff
+  background-image: linear-gradient(to right, #2644c8, #7a2fbb);
+  transition: all 0.3s ease 0s;
 }
 
 .btn-primary:hover {
-  background-color: #007acc
+  background-image: linear-gradient(to right, #122a95, #6e2597);
 }
 
 .btn-primary:focus {
-  background-color: #007acc;
+  background-color: linear-gradient(to right, #122a95, #6e2597);
   color: #fff
 }
 
 .btn-primary:active {
-  background-color: #007acc !important
+  background-color: linear-gradient(to right, #122a95, #6e2597) !important
 }
 
 .about-section {
@@ -194,7 +195,7 @@
 @media (min-width:992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: .5rem solid #0099ff
+    border-left: .5rem solid #7a2fbb
   }
 }
 
@@ -209,7 +210,7 @@
   }
 
   .projects-section .project-text hr {
-    border-color: #0099ff;
+    border-color: #7a2fbb;
     border-width: .25rem;
     width: 30%
   }
@@ -241,7 +242,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: .25rem solid #0099ff
+  border-bottom: .25rem solid #7a2fbb;
 }
 
 .contact-section .card h4 {
@@ -252,7 +253,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #0099ff;
+  border-color: #7a2fbb;
   border-width: .25rem;
   width: 3rem
 }
@@ -285,13 +286,13 @@ body {
 }
 
 a {
-  color: #0099ff
+  color: #7a2fbb;
 }
 
 a:focus,
 a:hover {
   text-decoration: none;
-  color: #3c6360
+  color: #6e2597;
 }
 
 .bg-black {
@@ -299,11 +300,11 @@ a:hover {
 }
 
 .bg-primary {
-  background-color: #0099ff !important
+  background-color: #7a2fbb !important
 }
 
 .text-primary {
-  color: #0099ff !important
+  color: #7a2fbb !important
 }
 
 footer {
