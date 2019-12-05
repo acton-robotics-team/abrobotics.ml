@@ -100,7 +100,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, .3) 0, rgba(22, 22, 22, .7) 75%, #161616 100%), url(../img/bg-masthead.png);
+  background: linear-gradient(to bottom, rgba(22, 22, 22, .3) 0, rgba(22, 22, 22, .7) 75%, #161616 100%), url(../img/matt_bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -114,7 +114,7 @@
   letter-spacing: .8rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .3));
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text
+  -webkit-background-clip: text;
 }
 
 .masthead h2 {
@@ -371,4 +371,46 @@ footer {
 .timeline-child:last-child {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+table,
+td {
+  /* border: 1px solid #333; */
+  margin: 0 auto;
+  text-align: center;
+}
+
+thead,
+tfoot {
+  /* background-color: #333; */
+  color: #fff;
+}
+
+.team-section {
+  text-align: center;
+  margin: auto;
+}
+
+.pfp {
+  border-radius: 50%;
+  width: 50%;
+  margin: 0 auto;
+  background: linear-gradient(to right, #2644c8, #7a2fbb);
+  padding: 4px;
+}
+
+.subtext {
+  font-size: 0.75rem;
+}
+
+.title-box {
+  background: linear-gradient(to right, #2644c8, #7a2fbb);
+  padding: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.title-text {
+  color: white;
+  font-size: 2rem;
+  margin: 0 !important;
 }
