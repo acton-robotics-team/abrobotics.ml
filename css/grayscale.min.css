@@ -393,10 +393,12 @@ tfoot {
 
 .pfp {
   border-radius: 50%;
-  width: 50%;
-  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  margin: 0 50px;
   background: linear-gradient(to right, #2644c8, #7a2fbb);
   padding: 4px;
+  object-fit: cover;
 }
 
 .subtext {
